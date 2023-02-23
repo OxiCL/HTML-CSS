@@ -1,51 +1,54 @@
 /* roboto-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* roboto-500 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-  /* roboto-900 - latin */
-  @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
-         url('../fonts/roboto-v30-latin-900.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-  }
-html{
-  max-width: 1219px; /*Устанавливает максимальную ширину элемента*/
-  box-sizing: border-box ;
-    
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v30-latin-regular.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-regular.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-body{
+/* roboto-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto-v30-latin-500.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-500.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* roboto-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto-v30-latin-900.woff2") format("woff2"),
+    /* Chrome 36+, Opera 23+, Firefox 39+ */
+      url("../fonts/roboto-v30-latin-900.woff") format("woff"); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html {
+  max-width: 1219px; /*Устанавливает максимальную ширину элемента*/
+  box-sizing: border-box;
+}
+body {
   font-family: "Roboto";
   font-style: normal;
   font-size: 16px;
 }
-*,*::before,*::after{
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 /* head starts*/
 .main_container {
- 
   max-width: 1219px; /*Устанавливает максимальную ширину элемента*/
   margin-left: auto; /*Устанавливает величину отступа от левого края элемента*/
   margin-right: auto; /*Устанавливает величину отступа от правого края элемента*/
 }
-.site_header{
+.site_header {
   width: 100%;
   max-width: 1219px; /*Устанавливает максимальную ширину элемента*/
   margin: 0;
@@ -56,60 +59,58 @@ body{
   padding-left: 55px; /*Устанавливает значение поля от левого края содержимого элемента*/
   padding-right: 55px; /*Устанавливает значение поля от правого края содержимого элемента*/
 }
-.logo{
+.logo {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.site_header_wrapper{
-  display:flex;
+.site_header_wrapper {
+  display: flex;
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: space-between;
   align-items: center;
 }
 
-.header_list{
-display: flex;
-flex-wrap: wrap;
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
 }
-.header_item{
+.header_item {
   margin-right: 23px;
   list-style-type: none;
 }
-.header_item:last-child{
+.header_item:last-child {
   margin-right: 0;
 }
-.header_link{
+.header_link {
   font-size: 24px;
-  color:white;
+  color: white;
   text-decoration: none;
 }
 /*head end*/
 
 /*section1 start*/
-.main{
+.main {
   align-items: center;
 }
-.section1{
-  background: url(img/image-7.png)center no-repeat;
+.section1 {
+  background: url(img/image-7.png) center no-repeat;
   background-size: cover;
   margin-top: 84px; /*Устанавливает величину отступа от верхнего края элемента*/
   padding-top: 160px;
   padding-bottom: 160px;
 }
 
-.main_title{
+.main_title {
   font-size: 78px;
   text-align: center;
-  color:white;
+  color: white;
 }
-.section2{
+.section2 {
   background-color: #eee;
   padding-bottom: 92px;
-  
 }
-.titles{
-  
+.titles {
   font-size: 54px;
   text-align: center;
   color: #007765;
@@ -119,7 +120,7 @@ flex-wrap: wrap;
   margin-top: 0;
   margin-bottom: 0;
 }
-.text_section2{
+.text_section2 {
   margin-top: 0;
   font-weight: 400px;
   line-height: 38px;
@@ -128,69 +129,67 @@ flex-wrap: wrap;
   padding-left: 55px; /*Устанавливает значение поля от левого края содержимого элемента*/
   padding-right: 55px; /*Устанавливает значение поля от правого края содержимого элемента*/
 }
-.section3{
-  background: url(img/Hero.png)center no-repeat;
+.section3 {
+  background: url(img/Hero.png) center no-repeat;
   background-size: cover;
   padding-top: 160px;
   padding-bottom: 160px;
 }
-.section4{
+.section4 {
   background-color: white;
   padding-left: 55px; /*Устанавливает значение поля от левого края содержимого элемента*/
   padding-right: 55px; /*Устанавливает значение поля от правого края содержимого элемента*/
-
 }
-.text_section4{
+.text_section4 {
   font-size: 32px;
   line-height: 38px;
 }
-.logotip2{
+.logotip2 {
   float: left;
-  padding-right: 48px ;
+  padding-right: 48px;
 }
-.section5{
+.section5 {
   background-color: #eee;
 }
-.cards_wrapper{
+.cards_wrapper {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
   padding: 50px;
 }
-.card, .card2{
+.card,
+.card2 {
   text-align: center;
 }
-.name_personal{
+.name_personal {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   color: #007765;
 }
-.position{
+.position {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
 }
-.footer{
+.footer {
   padding-top: 48px;
   padding-bottom: 64px;
   background: #333333;
-  
 }
-.footer_text{
+.footer_text {
   max-width: 540px;
   text-align: center;
   font-size: 18px;
   line-height: 21px;
   margin: auto;
-  color:white;
+  color: white;
   font-weight: 400;
-
 }
 #the_problem,
 #PiedPiperCoin,
 #the_team {
-    border-top: 84px solid transparent;
-    margin-top: -84px;
-    background-clip: padding-box;
+  border-top: 84px solid transparent;
+  margin-top: -84px;
+  background-clip: padding-box;
 }
